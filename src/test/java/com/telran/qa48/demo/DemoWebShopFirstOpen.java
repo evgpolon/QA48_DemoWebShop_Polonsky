@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DemoWebShop {
+public class DemoWebShopFirstOpen {
 
     WebDriver driver;
 
@@ -20,5 +20,6 @@ public void setup() {
     public void openShop() {
         System.out.println("WEBSHOP is opened");
     }
+
 
 }
