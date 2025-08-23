@@ -16,6 +16,7 @@ public void setup() {
 }
 
 
+
     @Test
     public void openShop() {
         System.out.println("WEBSHOP is opened");
