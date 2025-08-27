@@ -12,21 +12,8 @@ import java.time.Duration;
 
 
 
-public class FindElementsByCss {
-    WebDriver driver;
+public class FindElementsByCss extends TestBase{
 
-    @AfterMethod
-    public void tearDown(){
-        driver.close();
-    }
-
-    @BeforeMethod
-    public void setUp(){
-        driver = new ChromeDriver();
-        driver.get("https://demowebshop.tricentis.com");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
 
     @Test
     public void findElementByNameCss(){

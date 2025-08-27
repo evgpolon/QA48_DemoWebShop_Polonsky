@@ -11,22 +11,8 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class SimpleFindElements {
+public class SimpleFindElements extends TestBase {
 
-    WebDriver driver;
-
-    @BeforeMethod
-    public void setUp(){
-        driver = new ChromeDriver();
-        driver.get("https://demowebshop.tricentis.com");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
-
-    @AfterMethod
-    public void tearDown(){
-        driver.close();
-    }
 
    @Test
    public void findElementByName(){
