@@ -10,33 +10,48 @@ public class CreateAccountTests extends TestBase{
     public void newUserRegistrationPositiveTestMale() {
         int i = (int)((System.currentTimeMillis()/1000)%3600);
         //click on Login link
-        driver.findElement(By.xpath("//a[@href='/register']")).click();
+        click(By.xpath("//a[@href='/register']"));
         // click gender
-        driver.findElement(By.cssSelector("#gender-male")).click();
+        click(By.cssSelector("#gender-male"));
         // First name
-        driver.findElement(By.name("FirstName")).click();
-        driver.findElement(By.name("FirstName")).clear();
-        driver.findElement(By.name("FirstName")).sendKeys("Johny");
+        type(By.name("FirstName"), "Johny");
         // Second name
-        driver.findElement(By.name("LastName")).click();
-        driver.findElement(By.name("LastName")).clear();
-        driver.findElement(By.name("LastName")).sendKeys("Trampampony");
+        type(By.name("LastName"), "Trampampony");
         // email
-        driver.findElement(By.name("Email")).click();
-        driver.findElement(By.name("Email")).clear();
-        driver.findElement(By.name("Email")).sendKeys("johny" + i + "@me.com");
-        //driver.findElement(By.name("Email")).sendKeys("johny@me.com");
+        type(By.name("Email"), "johny" + i + "@me.com");
 
         // password
-        driver.findElement(By.name("Password")).click();
-        driver.findElement(By.name("Password")).clear();
-        driver.findElement(By.name("Password")).sendKeys("Pass123$%^");
+        type(By.name("Password"), "Pass123$%^");
         // confirm password
-        driver.findElement(By.name("ConfirmPassword")).click();
-        driver.findElement(By.name("ConfirmPassword")).clear();
-        driver.findElement(By.name("ConfirmPassword")).sendKeys("Pass123$%^");
+        type(By.name("ConfirmPassword"), "Pass123$%^");
         // register
-        driver.findElement(By.name("register-button")).click();
+        click(By.name("register-button"));
+        // verify SingOut is displayed
+        // //div:nth-child(1) button == //button[.='Sign Out'] == //*[.='Sign Out']
+        Assert.assertTrue(isElementPresent(By.xpath("//div[contains(.,'Your registration completed')]")));
+
+    }
+
+    @Test
+    public void newUserRegistrationPositiveTestFemale() {
+        int i = (int)((System.currentTimeMillis()/1000)%3600);
+        //click on Login link
+        click(By.xpath("//a[@href='/register']"));
+        // click gender
+        click(By.cssSelector("#gender-female"));
+        // First name
+        type(By.name("FirstName"), "Lana");
+        // Second name
+        type(By.name("LastName"), "Bananna");
+        // email
+        type(By.name("Email"), "lana" + i + "@me.com");
+
+        // password
+        type(By.name("Password"), "Pass123$%^");
+        // confirm password
+        type(By.name("ConfirmPassword"), "Pass123$%^");
+        // register
+        click(By.name("register-button"));
         // verify SingOut is displayed
         // //div:nth-child(1) button == //button[.='Sign Out'] == //*[.='Sign Out']
         Assert.assertTrue(isElementPresent(By.xpath("//div[contains(.,'Your registration completed')]")));

@@ -28,4 +28,14 @@ public class TestBase {
     public boolean isElementPresent(By locator) {
         return driver.findElements(locator).size()>0;
     }
+
+    protected void type(By locator, String text) {
+        click(locator);
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(text);
+    }
+
+    protected void click(By locator) {
+        driver.findElement(locator).click();
+    }
 }
