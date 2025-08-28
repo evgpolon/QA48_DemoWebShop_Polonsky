@@ -41,16 +41,6 @@ public class CreateAccountTests extends TestBase{
         // //div:nth-child(1) button == //button[.='Sign Out'] == //*[.='Sign Out']
         Assert.assertTrue(isElementPresent(By.xpath("//div[contains(.,'Your registration completed')]")));
 
-
-        //data-val-required="First name is required."
-        // Enter Password
-        //type(By.name("password"), "Goos12os12#");
-        // click on Registration button
-        //click(By.name("registration"));
-        // verify SingOut is displayed
-        // //div:nth-child(1) button == //button[.='Sign Out'] == //*[.='Sign Out']
-        //Assert.assertTrue(isElementPresent(By.xpath("//button[.='Sign Out']")));
-
     }
 
 }
