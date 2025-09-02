@@ -5,17 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DemoWebShopFirstOpen {
-
-    WebDriver driver;
-
-@BeforeMethod
-public void setup() {
-    driver = new ChromeDriver();
-    driver.get("https://demowebshop.tricentis.com/");
-}
-
-
+public class DemoWebShopFirstOpen extends TestBase{
 
     @Test
     public void openShop() {
