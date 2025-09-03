@@ -1,4 +1,4 @@
-package com.telran.qa48.demo;
+package com.telran.demoshop.qa48.models;
 
 public class User {
     private String firstName;

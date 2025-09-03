@@ -1,8 +1,5 @@
-package com.telran.qa48.demo;
+package com.telran.demoshop.qa48.tests.tests.demo;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class DemoWebShopFirstOpen extends TestBase{

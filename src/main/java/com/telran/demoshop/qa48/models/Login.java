@@ -1,8 +1,8 @@
-package com.telran.qa48.demo;
+package com.telran.demoshop.qa48.models;
 
 public class Login {
-    String email; 
-    String password;
+    private String email;
+    private String password;
 
     public Login setEmail(String email) {
         this.email = email;
