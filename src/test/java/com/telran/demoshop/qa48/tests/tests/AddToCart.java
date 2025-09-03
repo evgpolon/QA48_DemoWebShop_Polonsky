@@ -1,4 +1,4 @@
-package com.telran.demoshop.qa48.tests.tests.demo;
+package com.telran.demoshop.qa48.tests.tests;
 
 import com.telran.demoshop.qa48.models.Login;
 import org.testng.Assert;

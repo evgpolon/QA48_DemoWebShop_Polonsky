@@ -1,6 +1,5 @@
 package com.telran.demoshop.qa48.tests.find;
 
-import com.telran.demoshop.qa48.tests.tests.demo.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;

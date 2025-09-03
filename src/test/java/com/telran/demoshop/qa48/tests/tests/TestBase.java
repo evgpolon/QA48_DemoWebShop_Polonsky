@@ -1,4 +1,4 @@
-package com.telran.demoshop.qa48.tests.tests.demo;
+package com.telran.demoshop.qa48.tests.tests;
 
 import com.telran.demoshop.qa48.fw.ApplicationManager;
 import org.testng.annotations.AfterMethod;

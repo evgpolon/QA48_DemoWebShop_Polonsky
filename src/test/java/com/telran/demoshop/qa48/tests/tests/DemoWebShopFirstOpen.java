@@ -1,4 +1,4 @@
-package com.telran.demoshop.qa48.tests.tests.demo;
+package com.telran.demoshop.qa48.tests.tests;
 
 import org.testng.annotations.Test;
 
