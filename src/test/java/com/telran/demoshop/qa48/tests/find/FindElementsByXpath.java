@@ -1,26 +1,27 @@
-package com.telran.demoshop.qa48.tests.tests.demo;
+package com.telran.demoshop.qa48.tests.find;
 
+import com.telran.demoshop.qa48.tests.tests.demo.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class FindElementsByXpath extends TestBase {
+public class FindElementsByXpath extends TestDemo {
 
     @Test
     public void findElementsByXpath () {
 
-        app.driver.findElement(By.xpath("//div"));
-        List<WebElement> tagdiv = app.driver.findElements(By.xpath("//div"));
+        driver.findElement(By.xpath("//div"));
+        List<WebElement> tagdiv = driver.findElements(By.xpath("//div"));
         System.out.println(tagdiv.size());
 
-        app.driver.findElement(By.xpath("//a"));
-        app.driver.findElement(By.xpath("//script"));
+        driver.findElement(By.xpath("//a"));
+        driver.findElement(By.xpath("//script"));
 
-        app.driver.findElement(By.xpath("//div[@class='header-menu']"));
+        driver.findElement(By.xpath("//div[@class='header-menu']"));
 
-        app.driver.findElement(By.xpath("//li[@id='topcartlink']"));
+        driver.findElement(By.xpath("//li[@id='topcartlink']"));
 
 
     }
