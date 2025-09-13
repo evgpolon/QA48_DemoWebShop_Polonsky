@@ -33,12 +33,10 @@ public class ApplicationManager {
     public void init() {
         if (browser.equalsIgnoreCase("chrome")){
             driver = new ChromeDriver();
-
         }
         else if (browser.equalsIgnoreCase("safari")){
             driver = new SafariDriver();
         }
-        driver = new ChromeDriver();
         driver.get("https://demowebshop.tricentis.com");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

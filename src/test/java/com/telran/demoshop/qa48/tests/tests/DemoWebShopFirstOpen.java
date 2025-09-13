@@ -21,11 +21,4 @@ public class DemoWebShopFirstOpen extends TestBase{
 
     }
 
-    @Test
-    public void openShop() {
-        System.out.println("WEBSHOP is opened");
-    }
-
-
-
 }

@@ -1,5 +1,6 @@
 package com.telran.demoshop.qa48.tests.tests;
 
+import com.telran.demoshop.qa48.data.UserData;
 import com.telran.demoshop.qa48.models.Login;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,8 +16,8 @@ public class AddToCart extends TestBase {
         }
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginFields(new Login()
-                .setEmail("johny@me.com")
-                .setPassword("Pass123$%^"));
+                .setEmail(UserData.EMAIL)
+                .setPassword(UserData.PASSWORD));
         app.getUser().clickOnLoginButton();
     }
 

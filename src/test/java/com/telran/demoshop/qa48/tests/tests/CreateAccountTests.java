@@ -1,5 +1,7 @@
 package com.telran.demoshop.qa48.tests.tests;
 
+import com.telran.demoshop.qa48.data.FemaleRegistrationData;
+import com.telran.demoshop.qa48.data.MaleRegistrationData;
 import com.telran.demoshop.qa48.models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -21,11 +23,11 @@ public class CreateAccountTests extends TestBase{
         app.getUser().clickOnRegisterLink();
         app.getUser().clickOnMaleGender();
         app.getUser().fillRegisterForm(new User()
-                .setFirstName("Johny")
-                .setLastName("Trampampony")
-                .setEmail("johny@me.com")
-                .setPassword("Pass123$%^")
-                .setConfirmPassword("Pass123$%^"));
+                .setFirstName(MaleRegistrationData.NAME)
+                .setLastName(MaleRegistrationData.LASTNAME)
+                .setEmail(MaleRegistrationData.EMAIL)
+                .setPassword(MaleRegistrationData.PASSWORD)
+                .setConfirmPassword(MaleRegistrationData.CONFPASSWORD));
         app.getUser().clickOnRegisterButton();
         Assert.assertTrue(app.getUser().ifTheMessageAboutSuccessfulRegistrationIsPresent());
 
@@ -36,11 +38,11 @@ public class CreateAccountTests extends TestBase{
         app.getUser().clickOnRegisterLink();
         app.getUser().clickOnFemaleGengere();
         app.getUser().fillRegisterForm(new User()
-                .setFirstName("Lana")
-                .setLastName("Bananna")
-                .setEmail("lana@me.com")
-                .setPassword("Pass123$%^")
-                .setConfirmPassword("Pass123$%^"));
+                .setFirstName(FemaleRegistrationData.NAME)
+                .setLastName(FemaleRegistrationData.LASTNAME)
+                .setEmail(FemaleRegistrationData.EMAIL)
+                .setPassword(FemaleRegistrationData.PASSWORD)
+                .setConfirmPassword(FemaleRegistrationData.CONFPASSWORD));
         app.getUser().clickOnRegisterButton();
         Assert.assertTrue(app.getUser().ifTheMessageAboutSuccessfulRegistrationIsPresent());
 
