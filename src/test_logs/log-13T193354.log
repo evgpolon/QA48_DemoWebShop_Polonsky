@@ -1,0 +1,8 @@
+19:34:02 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testifHomePageOpen
+19:34:02 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: ifHomePageOpen
+19:34:02 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+19:34:02 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+19:34:02 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testbasicLoginTest
+19:34:04 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: basicLoginTest
+19:34:04 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+19:34:04 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************

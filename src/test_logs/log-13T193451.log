@@ -1,0 +1,7 @@
+19:34:52 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/polonskiy/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+19:34:59 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testaddToCart
+19:35:07 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: addToCart
+19:35:07 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+19:35:07 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
