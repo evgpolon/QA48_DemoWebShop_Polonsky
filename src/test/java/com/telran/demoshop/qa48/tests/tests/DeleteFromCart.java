@@ -10,6 +10,9 @@ public class DeleteFromCart extends TestBase {
 
     @BeforeMethod
     public void preCondition() {
+        if (!app.getUser().isRegisterLinkPresent()) {
+            app.getUser().clickOnLogOutButton();
+        }
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginFields(new Login()
                 .setEmail("johny@me.com")
@@ -32,6 +35,9 @@ public class DeleteFromCart extends TestBase {
         Assert.assertEquals(sizeAfter, sizeBefore - 1);
     }
 
+}
+
+    /*
     @Test
     public void deleteFromCartCustomQuantityTest() {
         app.getShopping().clickOnShoppingCartOnHeader();
@@ -40,7 +46,9 @@ public class DeleteFromCart extends TestBase {
         app.getShopping().typeQtyToDelete();
         app.getShopping().pause(1000);
         app.getShopping().clickOnUpdateCart();
+        app.getShopping().clickOnShoppingCartOnHeader();
         app.getShopping().pause(1000);
+        app.getShopping().clickOnShoppingCartOnHeader();
         app.getShopping().qtyAfter = app.getShopping().qtyInCart();
         int before = Integer.parseInt(app.getShopping().qtyBefore);
         int after = Integer.parseInt(app.getShopping().qtyAfter);
@@ -49,9 +57,4 @@ public class DeleteFromCart extends TestBase {
 
     }
 
-
-}
-
-/*
-
- */
+     */

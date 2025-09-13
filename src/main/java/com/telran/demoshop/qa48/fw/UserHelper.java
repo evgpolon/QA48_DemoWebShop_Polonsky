@@ -34,6 +34,8 @@ public class UserHelper extends BaseHelper{
         click(By.className("ico-login"));
     }
 
+
+
     public void fillLoginFields(Login login) {
         type(By.name("Email"), login.getEmail());
         type(By.name("Password"), login.getPassword());
@@ -58,5 +60,14 @@ public class UserHelper extends BaseHelper{
 
     public boolean ifTheMessageAboutSuccessfulRegistrationIsPresent() {
         return isElementPresent(By.xpath("//div[contains(.,'Your registration completed')]"));
+    }
+
+    public boolean isRegisterLinkPresent() {
+        return isElementPresent(By.xpath("//a[@href='/register']"));
+    }
+
+    public void clickOnLogOutButton() {
+        click(By.cssSelector("[href='/logout']"));
+
     }
 }

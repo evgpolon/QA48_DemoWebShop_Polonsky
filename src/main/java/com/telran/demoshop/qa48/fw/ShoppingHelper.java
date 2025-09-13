@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class ShoppingHelper extends BaseHelper{
-    public String qtyBefore;
-    public String qtyAfter;
 
     public ShoppingHelper(WebDriver driver) {
         super(driver);
@@ -50,7 +48,7 @@ public class ShoppingHelper extends BaseHelper{
     }
 
     public void clickOnShoppingCartOnHeader() {
-        click(By.linkText("Shopping cart"));
+        click(By.xpath("//a[@href='/cart']"));
     }
 
     public void typeQtyToDelete() {
@@ -62,6 +60,8 @@ public class ShoppingHelper extends BaseHelper{
         return input.getAttribute("value");
 
     }
+    public String qtyBefore;
+    public String qtyAfter;
 
     public String qtyToDel() {
         int qtyToDelete = Integer.parseInt(qtyBefore) - 1;

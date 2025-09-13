@@ -2,9 +2,18 @@ package com.telran.demoshop.qa48.tests.tests;
 
 import com.telran.demoshop.qa48.models.User;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CreateAccountTests extends TestBase{
+
+
+    @BeforeMethod
+    public void ensurePrecondition(){
+        if(!app.getUser().isRegisterLinkPresent()){
+            app.getUser().clickOnLogOutButton();
+        }
+    }
 
     @Test
     public void newUserRegistrationPositiveTestMale() {

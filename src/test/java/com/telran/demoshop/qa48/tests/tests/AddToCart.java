@@ -10,6 +10,9 @@ public class AddToCart extends TestBase {
 
     @BeforeMethod
     public void preCondition() {
+        if(!app.getUser().isRegisterLinkPresent()){
+            app.getUser().clickOnLogOutButton();
+        }
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginFields(new Login()
                 .setEmail("johny@me.com")
