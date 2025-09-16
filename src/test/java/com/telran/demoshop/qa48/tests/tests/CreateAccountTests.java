@@ -3,6 +3,7 @@ package com.telran.demoshop.qa48.tests.tests;
 import com.telran.demoshop.qa48.data.FemaleRegistrationData;
 import com.telran.demoshop.qa48.data.MaleRegistrationData;
 import com.telran.demoshop.qa48.models.User;
+import com.telran.demoshop.qa48.utils.MyDataProviders;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -33,10 +34,21 @@ public class CreateAccountTests extends TestBase{
 
     }
 
+
+    @Test (dataProvider = "newUserMaleWithCsv", dataProviderClass = MyDataProviders.class)
+    public void newUserRegistrationPositiveTestMaleWithCsv(User user) {
+        app.getUser().clickOnRegisterLink();
+        app.getUser().clickOnMaleGender();
+        app.getUser().fillRegisterForm(user);
+        app.getUser().clickOnRegisterButton();
+        Assert.assertTrue(app.getUser().ifTheMessageAboutSuccessfulRegistrationIsPresent());
+
+    }
+
     @Test
     public void newUserRegistrationPositiveTestFemale() {
         app.getUser().clickOnRegisterLink();
-        app.getUser().clickOnFemaleGengere();
+        app.getUser().clickOnFemaleGenger();
         app.getUser().fillRegisterForm(new User()
                 .setFirstName(FemaleRegistrationData.NAME)
                 .setLastName(FemaleRegistrationData.LASTNAME)
@@ -45,7 +57,17 @@ public class CreateAccountTests extends TestBase{
                 .setConfirmPassword(FemaleRegistrationData.CONFPASSWORD));
         app.getUser().clickOnRegisterButton();
         Assert.assertTrue(app.getUser().ifTheMessageAboutSuccessfulRegistrationIsPresent());
+    }
+
+    @Test (dataProvider = "newUserFemaleWithCsv", dataProviderClass = MyDataProviders.class)
+    public void newUserRegistrationPositiveTestFemaleWithCsv(User user) {
+        app.getUser().clickOnRegisterLink();
+        app.getUser().clickOnFemaleGenger();
+        app.getUser().fillRegisterForm(user);
+        app.getUser().clickOnRegisterButton();
+        Assert.assertTrue(app.getUser().ifTheMessageAboutSuccessfulRegistrationIsPresent());
 
     }
+
 
 }

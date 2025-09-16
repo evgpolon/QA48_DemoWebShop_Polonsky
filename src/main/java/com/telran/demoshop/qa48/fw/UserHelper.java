@@ -54,7 +54,7 @@ public class UserHelper extends BaseHelper{
         type(By.name("ConfirmPassword"), user.getConfirmPassword());
     }
 
-    public void clickOnFemaleGengere() {
+    public void clickOnFemaleGenger() {
         click(By.cssSelector("#gender-female"));
     }
 
