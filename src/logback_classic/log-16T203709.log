@@ -1,0 +1,23 @@
+20:37:10 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/polonskiy/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+20:37:17 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testnewUserRegistrationPositiveTestMaleWithCsv
+20:37:18 [main] ERROR c.t.d.qa48.tests.tests.TestBase -- Failed: newUserRegistrationPositiveTestMaleWithCsvScreenshot path: /Users/polonskiy/Projects/QA48_DemoWebShop_Polonsky/screenshots/screen-1758044238891.png
+20:37:18 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+20:37:18 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+20:37:18 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testnewUserRegistrationPositiveTestMaleWithCsv
+20:37:19 [main] ERROR c.t.d.qa48.tests.tests.TestBase -- Failed: newUserRegistrationPositiveTestMaleWithCsvScreenshot path: /Users/polonskiy/Projects/QA48_DemoWebShop_Polonsky/screenshots/screen-1758044239936.png
+20:37:19 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+20:37:19 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+20:37:19 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testnewUserRegistrationPositiveTestMaleWithCsv
+20:37:20 [main] ERROR c.t.d.qa48.tests.tests.TestBase -- Failed: newUserRegistrationPositiveTestMaleWithCsvScreenshot path: /Users/polonskiy/Projects/QA48_DemoWebShop_Polonsky/screenshots/screen-1758044240872.png
+20:37:20 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+20:37:20 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+20:37:20 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testnewUserRegistrationPositiveTestMaleWithCsv
+20:37:21 [main] ERROR c.t.d.qa48.tests.tests.TestBase -- Failed: newUserRegistrationPositiveTestMaleWithCsvScreenshot path: /Users/polonskiy/Projects/QA48_DemoWebShop_Polonsky/screenshots/screen-1758044241783.png
+20:37:21 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+20:37:21 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+20:37:21 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testnewUserRegistrationPositiveTestMaleWithCsv
+20:37:22 [main] ERROR c.t.d.qa48.tests.tests.TestBase -- Failed: newUserRegistrationPositiveTestMaleWithCsvScreenshot path: /Users/polonskiy/Projects/QA48_DemoWebShop_Polonsky/screenshots/screen-1758044242778.png
+20:37:22 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+20:37:22 [main] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
