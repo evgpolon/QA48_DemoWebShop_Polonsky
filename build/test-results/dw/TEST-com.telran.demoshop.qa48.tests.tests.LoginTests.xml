@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.demoshop.qa48.tests.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-04T11:59:08.851Z" hostname="Air-Evgeniy" time="2.249">
+  <properties/>
+  <testcase name="basicLoginTest" classname="com.telran.demoshop.qa48.tests.tests.LoginTests" time="2.249"/>
+  <system-out><![CDATA[14:58:57 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testbasicLoginTest
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.xpath: //a[@href='/register']
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 0
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.cssSelector: [href='/logout']
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.cssSelector: [href='/logout']
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.className: ico-login
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.className: ico-login
+14:59:08 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:59:09 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //input[@value='Log in']
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //input[@value='Log in']
+14:59:10 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:11 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.cssSelector: [href='/logout']
+14:59:11 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:11 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 1
+14:59:11 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:59:11 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: basicLoginTest
+14:59:11 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+14:59:11 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

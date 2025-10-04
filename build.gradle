@@ -31,11 +31,15 @@ task dw(type:Test){
         def suite2 = project.hasProperty("suite2")
         def suite3 = project.hasProperty("suite3")
 
+
         if (suite1) {
             suites 'src/test/resources/testng.xml'
         }else if (suite2){
             suites'src/test/resources/smoky.xml'
+        }else if (suite3){
+            suites'src/test/resources/regression.xml'
         }
+
     }
     if(project.hasProperty('browser'))
     {

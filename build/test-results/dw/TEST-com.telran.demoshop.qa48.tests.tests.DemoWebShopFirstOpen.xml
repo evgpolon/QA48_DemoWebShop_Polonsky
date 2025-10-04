@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.demoshop.qa48.tests.tests.DemoWebShopFirstOpen" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-04T11:58:57.914Z" hostname="Air-Evgeniy" time="0.043">
+  <properties/>
+  <testcase name="ifHomePageOpen" classname="com.telran.demoshop.qa48.tests.tests.DemoWebShopFirstOpen" time="0.043"/>
+  <system-out><![CDATA[14:58:47 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testifHomePageOpen
+14:58:47 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.xpath: //h2[normalize-space()='Welcome to our store']
+14:58:47 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 0
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.cssSelector: [href='/']
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.cssSelector: [href='/']
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.xpath: //h2[normalize-space()='Welcome to our store']
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 1
+14:58:57 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:57 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: ifHomePageOpen
+14:58:57 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+14:58:57 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

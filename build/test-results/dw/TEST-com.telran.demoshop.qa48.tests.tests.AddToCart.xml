@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.demoshop.qa48.tests.tests.AddToCart" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-04T11:58:15.322Z" hostname="Air-Evgeniy" time="3.901">
+  <properties/>
+  <testcase name="addToCart" classname="com.telran.demoshop.qa48.tests.tests.AddToCart" time="3.901"/>
+  <system-out><![CDATA[14:58:12 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Start testaddToCart
+14:58:12 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.xpath: //a[@href='/register']
+14:58:12 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 1
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.className: ico-login
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.className: ico-login
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Email
+14:58:13 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.name: Password
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //input[@value='Log in']
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //input[@value='Log in']
+14:58:14 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:15 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //a[@href='/computers']
+14:58:15 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:15 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //a[@href='/computers']
+14:58:15 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //li[@class='inactive']//a[@href='/notebooks']
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //li[@class='inactive']//a[@href='/notebooks']
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //h2[@class='product-title']//a[@href='/141-inch-laptop']
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //h2[@class='product-title']//a[@href='/141-inch-laptop']
+14:58:16 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.id: add-to-cart-button-31
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.id: add-to-cart-button-31
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.xpath: //a[@href='/cart']
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.xpath: //a[@href='/cart']
+14:58:17 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:18 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator will find By.linkText: Shopping cart
+14:58:18 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:18 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- The locator is By.linkText: Shopping cart
+14:58:18 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:19 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- Before find elements By.xpath: //td[@class='product']
+14:58:19 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:19 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- List size is 1
+14:58:19 [Test worker] INFO  c.t.demoshop.qa48.utils.MyListener -- *********************
+14:58:19 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Passed: addToCart
+14:58:19 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- Stop test
+14:58:19 [Test worker] INFO  c.t.d.qa48.tests.tests.TestBase -- ********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
